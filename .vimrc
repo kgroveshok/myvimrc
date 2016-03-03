@@ -23,4 +23,4 @@ call vundle#end()            " required
 map <C-t> :NERDTreeToggle
 set ts=4 sw=4 et
 let g:bookmark_manage_per_buffer = 1
-
+au BufReadPost *.isql set syntax=sql
