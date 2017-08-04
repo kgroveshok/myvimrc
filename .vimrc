@@ -15,6 +15,11 @@ Plugin 'MattesGroeger/vim-bookmarks'
 Plugin 'bufexplorer.zip'
 Plugin 'farseer90718/vim-taskwarrior'
 Plugin 'jaxbot/github-issues.vim'
+Plugin 'chrisbra/csv.vim' 
+Plugin 'vim-airline/vim-airline'  
+Plugin 'vim-airline/vim-airline-themes' 
+Plugin 'ctrlpvim/ctrlp.vim'   
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
