@@ -31,3 +31,7 @@ let g:bookmark_manage_per_buffer = 1
 au BufReadPost *.isql set syntax=sql
 " backslash c to toggle cursor guides
 :nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+" backslash hl and hc to highlight row and col. just 'l amd 'v to return
+:nnoremap <silent> <Leader>l ml:execute 'match Search /\%'.line('.').'l/'<CR>
+:nnoremap <silent> <Leader>c :execute 'match Search /\%'.virtcol('.').'v/'<CR>
+
